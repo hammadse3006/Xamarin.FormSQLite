@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YKWP.EditPage"
+             Title="Edit Dokter">
+  <ScrollView>
+    <StackLayout Padding="8" Spacing="10">
+      <Label Text="Edit Dokter"
+             Font="24"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"
+             FontAttributes="Bold"></Label>
+      <Entry x:Name="namaEntry"
+             Placeholder="Nama"></Entry>
+      <Entry x:Name="margaEntry"
+             Placeholder="Marga"></Entry>
+
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Tanggal Lahir"
+               VerticalOptions="Center"></Label>
+        <DatePicker x:Name="TanggalLahirDatePicker"></DatePicker>
+        <Label Text="Aktif"
+               VerticalOptions="Center"></Label>
+        <Switch x:Name="aktifSwitch"
+                VerticalOptions="Center"
+                IsToggled="True"></Switch>
+      </StackLayout>
+
+      <StackLayout Orientation="Horizontal">
+        <Button x:Name="updateBtn"
+                Text="Update"
+                BackgroundColor="Teal"
+                TextColor="White"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center"></Button>
+        <Button x:Name="hapusBtn"
+                Text="Hapus"
+                BackgroundColor="Red"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center"></Button> 
+      </StackLayout>  
+    </StackLayout>  
+  </ScrollView>  
+</ContentPage>

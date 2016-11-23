@@ -1,0 +1,2 @@
+D:\PROJECT\YKWP\YKWP\YKWP.Windows\YKWP.Windows.csproj;neutral
+D:\PROJECT\YKWP\YKWP\YKWP\YKWP.csproj;neutral

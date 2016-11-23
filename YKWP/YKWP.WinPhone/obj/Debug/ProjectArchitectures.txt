@@ -1,0 +1,2 @@
+D:\PROJECT\YKWP\YKWP\YKWP.WinPhone\YKWP.WinPhone.csproj;neutral
+D:\PROJECT\YKWP\YKWP\YKWP\YKWP.csproj;neutral
